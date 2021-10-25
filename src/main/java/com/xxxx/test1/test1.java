@@ -13,8 +13,12 @@ public class test1 {
 
         String s = new String("abc");
 
-        s.getClass().getDeclaredField("value").set("value","abcd");
+        StringBuilder builder = new StringBuilder(s);
+        builder.append("d");
 
+//        s.getClass().getDeclaredField("value").set("value","abcd");
+
+        System.out.println(builder);
         System.out.println(s);
     }
 }
