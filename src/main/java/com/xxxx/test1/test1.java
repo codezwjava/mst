@@ -10,15 +10,14 @@ public class test1 {
      * @param args
      */
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
-
         String s = new String("abc");
 
-        StringBuilder builder = new StringBuilder(s);
-        builder.append("d");
+        //反射
+        //value属性是： value[]
+        Field value = s.getClass().getDeclaredField("value");
+        value.setAccessible(true);
+        value.set(s,"abcd".toCharArray());
 
-//        s.getClass().getDeclaredField("value").set("value","abcd");
-
-        System.out.println(builder);
         System.out.println(s);
     }
 }
