@@ -3,7 +3,6 @@ package com.xxxx.test1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 public class ArrayListAndLinkedList {
     //ArrayList和LinkedList有哪些区别
