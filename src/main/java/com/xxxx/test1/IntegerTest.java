@@ -1,6 +1,6 @@
 package com.xxxx.test1;
 
-public class test3 {
+public class IntegerTest {
 
     /**
      *

@@ -2,7 +2,7 @@ package com.xxxx.test1;
 
 import javax.lang.model.element.VariableElement;
 
-public class test2 {
+public class stringTest2 {
     public static void main(String[] args) {
 
         String s1 = new String("abc");//生成2个对象 string对象和 字符串常量对象

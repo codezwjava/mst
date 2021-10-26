@@ -3,7 +3,7 @@ package com.xxxx.test1;
 import javax.lang.model.element.VariableElement;
 import java.lang.reflect.Field;
 
-public class test1 {
+public class stringTest1 {
     /**
      * 不改变原对象的引用
      *  将“abc” 变为 “abcd”

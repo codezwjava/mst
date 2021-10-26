@@ -1,7 +1,7 @@
 package com.xxxx.test1;
 
 
-public class test4 {
+public class stringAndStringbuliderAndStringbuffer {
     /**
      * string  stringBuilder  stringBuffer 的区别
      * @param args
