@@ -1,5 +1,7 @@
 package com.xxxx.test2;
 
+import com.xxl.job.core.handler.annotation.XxlJob;
+
 import java.util.HashMap;
 
 public class HashMapTest {
@@ -30,6 +32,7 @@ public class HashMapTest {
      *  5，所有元素转移完成，将新数组赋值给hashmap对象的table属性
      */
 
+    @XxlJob("main")
     public static void main(String[] args) {
 
         HashMap<Integer,String> hashMap = new HashMap<Integer,String>();
