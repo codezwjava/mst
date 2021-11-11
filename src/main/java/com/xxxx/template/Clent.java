@@ -1,5 +1,8 @@
 package com.xxxx.template;
 
+/**
+ * 模板方法模式案例实现
+ */
 public class Clent {
     public static void main(String[] args) {
 
